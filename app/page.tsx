@@ -32,6 +32,19 @@ export default function Home() {
           <h2 className="text-red-500 font-bold text-2xl sm:text-3xl md:text-4xl">
             Mia
           </h2>
+          <Link
+            href={"https://t.me/mialostdog"}
+            className="flex gap-2 items-center"
+          >
+            {/* <Image
+              src="https://img.icons8.com/?size=100&id=63306&format=png&color=000000"
+              alt="telegram"
+              width={50}
+              height={50}
+              className=""
+            /> */}
+            <p className="underline text-blue-500">Telegram </p>
+          </Link>
           <div className="bg-red-500 w-full h-2 sm:h-3"></div>
           <p className="text-sm sm:text-base md:text-lg">
             Mia, a timid four-month-old dog, is missing. She was last seen
